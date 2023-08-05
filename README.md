@@ -1,6 +1,8 @@
 # Chat-app
+This is a chat web application where many people can communicate with each other
 This is a java full stack project
-Built with java, jsp, servlet.
+Built with java, jsp, servlet, mysql.
+
 
 Lets see how it looks like
 
