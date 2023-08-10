@@ -1,0 +1,158 @@
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+  background:linear-gradient(135deg, #0b3b83 0%, #9c15b1 100%);
+  background-repeat: no-repeat ;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  
+}
+
+.signup-box {
+
+  margin: auto;
+  background-color: white;
+
+}
+
+.login-box {
+  height: auto;
+  margin: 0 auto auto auto;
+  background-color: white;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 25px;
+
+  margin-top: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.left h1{
+  font-size: 5vw;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 88%;
+  margin: 20px;
+  text-align: center;
+
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  
+  width: 80%;
+  padding: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #B0B3B9;
+}
+input[type="button"] {
+
+  border-radius: 6px;
+  width: 60%;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin: auto;
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+.left {
+  background-image: url("https://www.linkpicture.com/q/image_52.jpg");
+  background-size:cover ;
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 5rem;
+  width: 60%;
+  display: inline-block;
+  flex: 1;
+}
+.right {
+  display: inline-block;
+  width: 40%;
+
+}
+
+.loginpage {
+  height: auto;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 8%;
+  text-align: center;
+  display: flex;
+  filter: drop-shadow(10px 10px 100px rgb(4, 4, 52));
+  
+}
+
+.signuppage{
+  height: auto;
+  width: 80%;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  filter: drop-shadow(10px 10px 100px rgb(4, 4, 52));
+}
+
+.btnSub {
+  transition-duration: 0.3s;
+  margin-top:2.5rem;
+  width:100px;
+  font-size:1.2rem;
+  border-radius:12px;
+  border: 2px white;
+  color:purple;
+  font-weight:bold;
+  /*
+  background: linear-gradient(135deg, #0b3b83 0%, #9c15b1 100%);*/
+}
+
+.btnSub:hover {
+  color:white;
+  background: linear-gradient(135deg, #0b3b83 0%, #9c15b1 100%);
+}
